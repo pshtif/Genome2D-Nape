@@ -18,7 +18,7 @@ package com.genome2d.physics
 	import nape.shape.Circle;
 	import nape.shape.Polygon;
 
-	public class GNapeHelper
+	public class GNapeFactory
 	{
 		static public function createStaticBoundary(p_rect:Rectangle, p_size:Number, p_material:Material = null, p_filter:InteractionFilter = null):Body {
 			var body:Body = new Body(BodyType.STATIC);
