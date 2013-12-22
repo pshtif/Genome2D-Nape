@@ -45,7 +45,7 @@ package
 			
 			// Create a static physics boundary around the stage
 			var body:GNapeBody = GNodeFactory.createNodeWithComponent(GNapeBody) as GNapeBody;
-			body.napeBody = GNapeHelper.createStaticBoundary(new Rectangle(0,0,stage.stageWidth, stage.stageHeight), 100);
+			body.napeBody = GNapeFactory.createStaticBoundary(new Rectangle(0,0,stage.stageWidth, stage.stageHeight), 100);
 			_cGenome2D.root.addChild(body.node);
 			
 			// Create 100 boxes
